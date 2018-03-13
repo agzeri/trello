@@ -4,7 +4,7 @@ class Card extends Component {
   render() {
     return (
       <article className='card'>
-        <h4 className='card__title'>Day 1 – Monday</h4>
+        <h4 className='card__title'>{this.props.title}</h4>
         <ul className='stats'>
           <li>
             <i className='fa fa-eye'></i>

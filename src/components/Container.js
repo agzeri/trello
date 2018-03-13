@@ -4,9 +4,13 @@ import List from './List';
 
 class Container extends Component {
   render() {
+    const allData = this.props.info;
+
     return (
       <section>
-        <List />
+        {allData.map(function(list) {
+          return <List title={list.title} cards={list.cards} />
+        })}
       </section>
     );
   }
