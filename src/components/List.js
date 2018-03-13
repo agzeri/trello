@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Card from './Card';
+
 class List extends Component {
   render() {
     return (
@@ -9,26 +11,7 @@ class List extends Component {
             <h3>Week 3</h3>
           </header>
           <div className='list__container'>
-            <article>
-              <h4>Day 1 – Monday</h4>
-              <ul>
-                <li>
-                  <i className='fa fa-eye'></i>
-                </li>
-                <li>
-                  <i className='fa fa-bars'></i>
-                </li>
-                <li>
-                  <i className='fa fa-comment-o'></i> 6
-                </li>
-                <li>
-                  <i className='fa fa-paperclip'></i> 2
-                </li>
-                <li>
-                  <i className='fa fa-check-square-o'></i> 0/14
-                </li>
-              </ul>
-            </article>
+            <Card />
           </div>
           <footer>
             <a href='#'>Add a card...</a>
