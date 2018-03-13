@@ -8,6 +8,9 @@ class List extends Component {
           <header className='list__header'>
             <h3>Week 3</h3>
           </header>
+          <footer>
+            <a href='#'>Add a card...</a>
+          </footer>
         </div>
       </section>
     );
