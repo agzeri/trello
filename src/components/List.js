@@ -8,13 +8,14 @@ class List extends Component {
       <section>
         <div className='list'>
           <header className='list__header'>
-            <h3>Week 3</h3>
+            <h3 className='list__title'>Week 3</h3>
           </header>
           <div className='list__container'>
             <Card />
+            <Card />
           </div>
           <footer>
-            <a href='#'>Add a card...</a>
+            <a href='#' className='card__add'>Add a card...</a>
           </footer>
         </div>
       </section>

@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Card extends Component {
   render() {
     return (
-      <article>
-        <h4>Day 1 – Monday</h4>
-        <ul>
+      <article className='card'>
+        <h4 className='card__title'>Day 1 – Monday</h4>
+        <ul className='stats'>
           <li>
             <i className='fa fa-eye'></i>
           </li>
